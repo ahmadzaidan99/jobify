@@ -73,7 +73,7 @@ const AppProvider = ({ children }) => {
 
   // axios
   const authFetch = axios.create({
-    baseURL: '/api/v1',
+    baseURL: 'https://jobify-deploy.herokuapp.com/api/v1',
   })
   // request
 
